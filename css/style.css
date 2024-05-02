@@ -57,7 +57,6 @@ a {
 
 #header-container {
     background-color: #00008b;
-    height: 250px;
     padding: 25px;
 }
 
@@ -72,14 +71,11 @@ a {
 /* regole main */
 .row {
     padding: 25px;
+    background-color: #ffffff;
 }
 
 .row.even, #row-subscription {
     background-color: #d3d3d3;
-}
-
-.row.odd {
-    background-color: #ffffff;
 }
 
 .row-container {
