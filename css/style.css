@@ -5,3 +5,52 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #add8e6;
+}
+
+/* regole header */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header-banner {
+    width: 80%;
+    margin: 10px auto;
+}  
+
+#header-banner div, #header-banner nav {
+    background-color: #daa520;
+    border: 1px dotted black;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    float: left;
+}
+
+#header-banner div {
+    width: 25%;
+}
+
+#header-banner nav {
+    width: 50%;
+}
+
+#main-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+#login {
+    text-align: right;
+}
