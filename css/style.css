@@ -11,7 +11,7 @@ body {
 
 /* regole header */
 #header-banner {
-    width: 80%;
+    width: 60%;
     margin: 10px auto;
 }
 
@@ -63,8 +63,47 @@ a {
 
 #header-info {
     background-color: #ee82ee;
-    width: 50%;
+    width: 40%;
     height: 200px;
     border: 1px dotted black;
     margin: 0 auto;
+}
+
+/* regole main */
+.row {
+    height: 300px;
+    padding: 25px;
+}
+
+.row.even {
+    background-color: #d3d3d3;
+}
+
+.row.odd {
+    background-color: #ffffff;
+}
+
+.row-container {
+    width: 60%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.row-container.even {
+    flex-direction: row-reverse;
+}
+
+.left {
+    border: 1px dotted black;
+    height: 250px;
+    background-color: #1e90ff;
+    width: 60%;
+}
+
+.right {
+    border: 1px dotted black;
+    height: 250px;
+    background-color: #ffc0cb;
+    width: 40%;
 }
