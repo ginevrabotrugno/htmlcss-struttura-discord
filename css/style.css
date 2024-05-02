@@ -10,16 +10,16 @@ body {
 }
 
 /* regole header */
-header::after {
+#header-banner {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#header-banner::after {
     content: "";
     display: table;
     clear: both;
 }
-
-#header-banner {
-    width: 80%;
-    margin: 10px auto;
-}  
 
 #header-banner div, #header-banner nav {
     background-color: #daa520;
@@ -53,4 +53,18 @@ a {
 
 #login {
     text-align: right;
+}
+
+#header-container {
+    background-color: #00008b;
+    height: 250px;
+    padding: 25px;
+}
+
+#header-info {
+    background-color: #ee82ee;
+    width: 50%;
+    height: 200px;
+    border: 1px dotted black;
+    margin: 0 auto;
 }
