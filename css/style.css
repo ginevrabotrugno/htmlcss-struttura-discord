@@ -11,7 +11,7 @@ body {
 
 /* regole header */
 #header-banner {
-    width: 60%;
+    width: 80%;
     margin: 10px auto;
 }
 
@@ -63,7 +63,7 @@ a {
 
 #header-info {
     background-color: #ee82ee;
-    width: 40%;
+    width: 60%;
     height: 200px;
     border: 1px dotted black;
     margin: 0 auto;
@@ -71,11 +71,10 @@ a {
 
 /* regole main */
 .row {
-    height: 300px;
     padding: 25px;
 }
 
-.row.even {
+.row.even, #row-subscription {
     background-color: #d3d3d3;
 }
 
@@ -84,8 +83,7 @@ a {
 }
 
 .row-container {
-    width: 60%;
-    height: 250px;
+    width: 80%;
     margin: 0 auto;
     display: flex;
 }
@@ -106,4 +104,20 @@ a {
     height: 250px;
     background-color: #ffc0cb;
     width: 40%;
+}
+
+#row-subscription {
+    height: 600px;
+    padding: 25px;
+}
+
+.row-container.subscription {
+    height: 550px;
+}
+
+.center {
+    background-color: #228b22;
+    width: 100%;
+    border: 1px dotted black;
+    height: 550px;
 }
