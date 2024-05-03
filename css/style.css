@@ -14,21 +14,24 @@ body {
 #header-banner {
     width: 80%;
     background-color: #daa520;
-    line-height: 30px;
+    min-height: 30px;
     margin: 10px auto;
     display: flex;
+    align-items: center;
 }
 
 #header-banner div {
     width: 25%;
+    padding: 5px;
     /* DEBUG */
     border: 1px dashed black;
 }
 
 #header-banner nav {
     width: 50%;
-        /* DEBUG */
-        border: 1px dashed black;
+    padding: 5px;
+    /* DEBUG */
+    border: 1px dashed black;
 }
 
 #main-menu {
