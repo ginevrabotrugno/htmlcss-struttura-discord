@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 
+/* DEBUG */
 body {
-    /* DEBUG */
     background-color: #add8e6;
 }
 
@@ -48,7 +48,7 @@ a {
 }
 
 #header-container {
-    padding: 25px;
+    padding: 25px 0;
     /* DEBUG */
     background-color: #00008b;
 }
@@ -64,11 +64,11 @@ a {
 
 /* regole main */
 .row {
-    padding: 25px;
+    padding: 25px 0;
     background-color: #ffffff;
 }
 
-.row.even, #row-subscription {
+.row.even, #subscription {
     background-color: #d3d3d3;
 }
 
@@ -78,27 +78,20 @@ a {
     display: flex;
 }
 
-.row-container.even {
-    flex-direction: row-reverse;
-}
-
-.left {
-    border: 1px dashed black;
+.picture {
     height: 250px;
-    background-color: #1e90ff;
     width: 60%;
-}
-
-.right {
+    /* DEBUG  */
     border: 1px dashed black;
-    height: 250px;
-    background-color: #ffc0cb;
-    width: 40%;
+    background-color: #1e90ff;
 }
 
-#row-subscription {
-    height: 600px;
-    padding: 25px;
+.text {
+    height: 250px;
+    width: 40%;
+    /* DEBUG */
+    border: 1px dashed black;
+    background-color: #ffc0cb;
 }
 
 .row-container.subscription {
@@ -117,33 +110,36 @@ footer {
     background-color: #23272a;
 }
 
-#up {
-    border-bottom: solid white 2px;
-}
-
 .footer-container {
     width: 80%;
-    display: flex;
     margin: 0 auto;
-    padding: 25px;
+    padding: 25px 0;
 }
 
-.item {
-    width: 15%;
-    height: 550px;
-    background-color: #20b2aa;
-    border: dashed 2px white;
+.footer-container.up {
+    border-bottom: solid white 1px;
+    display: flex;
 }
 
-#pink-item {
-    width: 40%;
-    height: 550px;
+.box {
+    min-height: 550px;
+}
+
+.box.icons {
+    width: 30%;
+    border: dashed 1px #000000;
     background-color: #f08080;
-    border: dashed 2px black;
 }
 
-.footer-container.down {
-    display: block;
+.box.links {
+    width: 70%;
+    display: flex;
+}
+
+.link-col {
+    width: 25%;
+    background-color: #20b2aa;
+    border: dashed 1px white;
 }
 
 #footer-banner {
@@ -157,6 +153,6 @@ footer {
 .credit {
     width: 60px;
     background-color: #ffb6c1;
-    border: dashed 2px #000000;
+    border: dashed 1px #000000;
 }
 
