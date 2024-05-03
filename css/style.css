@@ -6,35 +6,29 @@
 }
 
 body {
+    /* DEBUG */
     background-color: #add8e6;
 }
 
 /* regole header */
 #header-banner {
     width: 80%;
-    margin: 10px auto;
-}
-
-#header-banner::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#header-banner div, #header-banner nav {
     background-color: #daa520;
-    border: 1px dotted black;
     line-height: 30px;
-    padding: 0 10px;
-    float: left;
+    margin: 10px auto;
+    display: flex;
 }
 
 #header-banner div {
     width: 25%;
+    /* DEBUG */
+    border: 1px dashed black;
 }
 
 #header-banner nav {
     width: 50%;
+        /* DEBUG */
+        border: 1px dashed black;
 }
 
 #main-menu {
@@ -54,16 +48,18 @@ a {
 }
 
 #header-container {
-    background-color: #00008b;
     padding: 25px;
+    /* DEBUG */
+    background-color: #00008b;
 }
 
 #header-info {
-    background-color: #ee82ee;
     width: 60%;
-    height: 200px;
-    border: 1px dotted black;
+    min-height: 200px;
     margin: 0 auto;
+    /* DEBUG */
+    background-color: #ee82ee;
+    border: 1px dashed black;
 }
 
 /* regole main */
@@ -87,14 +83,14 @@ a {
 }
 
 .left {
-    border: 1px dotted black;
+    border: 1px dashed black;
     height: 250px;
     background-color: #1e90ff;
     width: 60%;
 }
 
 .right {
-    border: 1px dotted black;
+    border: 1px dashed black;
     height: 250px;
     background-color: #ffc0cb;
     width: 40%;
@@ -112,7 +108,7 @@ a {
 .center {
     background-color: #228b22;
     width: 100%;
-    border: 1px dotted black;
+    border: 1px dashed black;
     height: 550px;
 }
 
@@ -136,14 +132,14 @@ footer {
     width: 15%;
     height: 550px;
     background-color: #20b2aa;
-    border: dotted 2px white;
+    border: dashed 2px white;
 }
 
 #pink-item {
     width: 40%;
     height: 550px;
     background-color: #f08080;
-    border: dotted 2px black;
+    border: dashed 2px black;
 }
 
 .footer-container.down {
@@ -161,6 +157,6 @@ footer {
 .credit {
     width: 60px;
     background-color: #ffb6c1;
-    border: dotted 2px #000000;
+    border: dashed 2px #000000;
 }
 
